@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    /*The line-height property defines the amount of space above and below inline elements. That is, elements that are set to display: inline or display: inline-block. This property is most often used to set the leading for lines of text.*/
+    color: $color-grey-dark;
+    box-sizing: border-box;
+}
