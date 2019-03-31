@@ -278,7 +278,9 @@ body {
   transform: translate(-50%, -50%);
   list-style: none;
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  opacity: 0;
+  transition: all .4s; }
 
 .navigation__item {
   margin: 1rem; }
@@ -306,6 +308,9 @@ body {
 .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
   width: 100%; }
+
+.navigation__checkbox:checked ~ .navigation__nav .navigation__list {
+  opacity: 1; }
 
 .navigation__icon {
   position: relative;
